@@ -56,19 +56,7 @@ app.get('/subscriptions', (req, res) => {
     res.json(subscriptions);
 });
 
-// Ou pour obtenir une subscription spécifique par son id :
-app.get('/subscriptions/:id', (req, res) => {
-    const id = parseInt(req.params.id);
-    const subscription = subscriptions.find(subscription => subscription.id === id);
-
-    if (subscription) {
-        res.json(subscription);
-    } else {
-        res.status(404).send('Subscription non trouvée');
-    }
-});
-
-// Ou encore filtrée
+// Route pour filtrer les subscriptions :
 app.get('/filtered-subscriptions', async (req, res, next) => {
     const options = {
       where: {
@@ -91,7 +79,7 @@ app.get('/filtered-subscriptions', async (req, res, next) => {
     }
 });
 
-// Écoutez sur le port 5000
+// En écoute sur le port 5000
 app.listen(5000, () => {
     console.log('Le serveur est en écoute sur le port 5000');
 });
