@@ -1,0 +1,222 @@
+const subscriptions = [{
+    "_id": "5e819da591dd64d948912132",
+    "Company": "5e7e1437c98625d1673643dc",
+    "Tool": "5e819da591dd64d948912131",
+    "ToolModel": "5e7e2a618a66c2987ef47d55",
+    "ToolCategory": "5e7e27f8ead5dcbb7e21ffe9",
+    "SubscriptionModel": "5e819ae9c124f4fc48bffa45",
+    "SubscriptionType": {
+        "_id": "5e819da691dd64d9489122b8",
+        "name": "HLO"
+    },
+    "contract_reference": "00903",
+    "duration": 12,
+    "start_date": "2019-12-30T23:00:00.000Z",
+    "active": true,
+    "payment_method": "no_payment_method",
+    "denounced": false,
+    "canceled": false,
+    "renewable": true,
+    "current_status": "processing",
+    "ended_on": "2021-12-30T22:59:59.000Z"
+},
+{
+    "_id": "5e819da591dd64d94891218d",
+    "Company": "5e7e1438c98625d1673643fa",
+    "Tool": "5e819da591dd64d94891218c",
+    "ToolModel": "5e7e2a618a66c2987ef47d55",
+    "ToolCategory": "5e7e27f8ead5dcbb7e21ffe9",
+    "SubscriptionModel": "5e819ae9c124f4fc48bffa45",
+    "SubscriptionType": {
+        "_id": "5e819da691dd64d9489122b8",
+        "name": "HLO"
+    },
+    "contract_reference": "00908",
+    "duration": 12,
+    "start_date": "2019-08-30T22:00:00.000Z",
+    "active": true,
+    "payment_method": "no_payment_method",
+    "denounced": false,
+    "canceled": true,
+    "renewable": true,
+    "current_status": "deletable",
+    "ended_on": "2020-08-31T21:59:59.999Z"
+},
+{
+    "_id": "5e819da591dd64d9489121a6",
+    "Company": "5e7e1438c98625d16736440c",
+    "Tool": "5e819da591dd64d9489121a5",
+    "ToolModel": "5e7e2a618a66c2987ef47d55",
+    "ToolCategory": "5e7e27f8ead5dcbb7e21ffe9",
+    "SubscriptionModel": "5e819ae9c124f4fc48bffa45",
+    "SubscriptionType": {
+        "_id": "5e819da691dd64d9489122b8",
+        "name": "HLO"
+    },
+    "contract_reference": "00910",
+    "duration": 12,
+    "start_date": "2011-03-30T22:00:00.000Z",
+    "active": true,
+    "payment_method": "no_payment_method",
+    "denounced": false,
+    "canceled": false,
+    "renewable": true,
+    "current_status": "canceled",
+    "ended_on": "2022-03-30T21:59:59.000Z"
+},
+{
+    "_id": "5e819da691dd64d9489121ce",
+    "Company": "5e7e1438c98625d167364418",
+    "Tool": "5e819da691dd64d9489121cd",
+    "ToolModel": "5e7e2a618a66c2987ef47d55",
+    "ToolCategory": "5e7e27f8ead5dcbb7e21ffe9",
+    "SubscriptionModel": "5e819ae9c124f4fc48bffa45",
+    "SubscriptionType": {
+        "_id": "5e819da691dd64d9489122b8",
+        "name": "HLO"
+    },
+    "contract_reference": "00912",
+    "duration": 12,
+    "start_date": "2018-12-30T23:00:00.000Z",
+    "active": true,
+    "payment_method": "no_payment_method",
+    "denounced": false,
+    "canceled": false,
+    "renewable": true,
+    "current_status": "canceled",
+    "ended_on": "2021-12-30T22:59:59.000Z"
+},
+{
+    "_id": "5e819da691dd64d9489121e9",
+    "Company": "5e7e1438c98625d16736442a",
+    "Tool": "5e819da691dd64d9489121e8",
+    "ToolModel": "5e7e2a618a66c2987ef47d55",
+    "ToolCategory": "5e7e27f8ead5dcbb7e21ffe9",
+    "SubscriptionModel": "5e819ae9c124f4fc48bffa45",
+    "SubscriptionType": {
+        "_id": "5e819da691dd64d9489122b8",
+        "name": "HLO"
+    },
+    "contract_reference": "00915",
+    "duration": 12,
+    "start_date": "2015-11-29T23:00:00.000Z",
+    "active": true,
+    "payment_method": "no_payment_method",
+    "denounced": false,
+    "canceled": false,
+    "renewable": true,
+    "current_status": "canceled",
+    "ended_on": "2021-11-29T22:59:59.000Z"
+},
+{
+    "_id": "5e819da691dd64d94891221c",
+    "Company": "5e7e1439c98625d16736443c",
+    "Tool": "5e819da691dd64d94891221b",
+    "ToolModel": "5e7e2a618a66c2987ef47d55",
+    "ToolCategory": "5e7e27f8ead5dcbb7e21ffe9",
+    "SubscriptionModel": "5e819ae9c124f4fc48bffa45",
+    "SubscriptionType": {
+        "_id": "5e819da691dd64d9489122b8",
+        "name": "MAJ"
+    },
+    "contract_reference": "00918",
+    "duration": 12,
+    "start_date": "2019-07-30T22:00:00.000Z",
+    "active": true,
+    "payment_method": "no_payment_method",
+    "denounced": false,
+    "canceled": false,
+    "renewable": true,
+    "current_status": "processing",
+    "ended_on": "2021-07-30T21:59:59.000Z"
+},
+{
+    "_id": "5e819da691dd64d948912224",
+    "Company": "5e7e1439c98625d167364442",
+    "Tool": "5e819da691dd64d948912223",
+    "ToolModel": "5e7e2a618a66c2987ef47d55",
+    "ToolCategory": "5e7e27f8ead5dcbb7e21ffe9",
+    "SubscriptionModel": "5e819ae9c124f4fc48bffa45",
+    "SubscriptionType": {
+        "_id": "5e819da691dd64d9489122b8",
+        "name": "MAJ"
+    },
+    "contract_reference": "00919",
+    "duration": 12,
+    "start_date": "2013-08-30T22:00:00.000Z",
+    "active": true,
+    "payment_method": "no_payment_method",
+    "denounced": false,
+    "canceled": false,
+    "renewable": true,
+    "current_status": "processing",
+    "ended_on": "2021-08-30T21:59:59.000Z"
+},
+{
+    "_id": "5e819da691dd64d94891224b",
+    "Company": "5e7e1439c98625d16736445a",
+    "Tool": "5e819da691dd64d94891224a",
+    "ToolModel": "5e7e2a618a66c2987ef47d55",
+    "ToolCategory": "5e7e27f8ead5dcbb7e21ffe9",
+    "SubscriptionModel": "5e819ae9c124f4fc48bffa45",
+    "SubscriptionType": {
+        "_id": "5e819da691dd64d9489122b8",
+        "name": "MAJ"
+    },
+    "contract_reference": "00922",
+    "duration": 12,
+    "start_date": "2018-05-30T22:00:00.000Z",
+    "active": true,
+    "payment_method": "no_payment_method",
+    "denounced": false,
+    "canceled": false,
+    "renewable": true,
+    "current_status": "processing",
+    "ended_on": "2021-05-30T21:59:59.000Z"
+},
+{
+    "_id": "5e819da691dd64d94891225e",
+    "Company": "5e7e1439c98625d167364460",
+    "Tool": "5e819da691dd64d94891225d",
+    "ToolModel": "5e7e2a618a66c2987ef47d55",
+    "ToolCategory": "5e7e27f8ead5dcbb7e21ffe9",
+    "SubscriptionModel": "5e819ae9c124f4fc48bffa45",
+    "SubscriptionType": {
+        "_id": "5e819da691dd64d9489122b8",
+        "name": "MAJ"
+    },
+    "contract_reference": "00924",
+    "duration": 12,
+    "start_date": "2007-10-30T23:00:00.000Z",
+    "active": true,
+    "payment_method": "no_payment_method",
+    "denounced": false,
+    "canceled": false,
+    "renewable": true,
+    "current_status": "processing",
+    "ended_on": "2021-10-30T21:59:59.000Z"
+},
+{
+    "_id": "5e819da691dd64d9489122b8",
+    "Company": "5e7e1439c98625d167364454",
+    "Tool": "5e819da691dd64d9489122b7",
+    "ToolModel": "5e7e2a618a66c2987ef47d55",
+    "ToolCategory": "5e7e27f8ead5dcbb7e21ffe9",
+    "SubscriptionModel": "5e819ae9c124f4fc48bffa45",
+    "SubscriptionType": {
+        "_id": "5e819da691dd64d9489122b8",
+        "name": "MAJ"
+    },
+    "contract_reference": "00930",
+    "duration": 12,
+    "start_date": "2017-08-30T22:00:00.000Z",
+    "active": true,
+    "payment_method": "no_payment_method",
+    "denounced": false,
+    "canceled": false,
+    "renewable": true,
+    "current_status": "processing",
+    "ended_on": "2021-08-30T21:59:59.000Z"
+}];
+
+export default subscriptions;
